@@ -10,9 +10,9 @@ $mail->SMTPSecure = 'tls'; // secure transfer enabled REQUIRED for Gmail
 $mail->Host = "smtp.gmail.com";
 $mail->Port = 25; // or 587
 $mail->IsHTML(true);
-$mail->Username = "rahdinam";
-$mail->Password = "7207660528";
-$mail->From="rahdinam@gmail.com";
+$mail->Username = "YouruserName";
+$mail->Password = "YOurpassword";
+$mail->From="yourusername";
 $mail->Subject = "Test";
 $mail->Body = "hello";
 $mail->AddAddress("rahdinam@gmail.com");
